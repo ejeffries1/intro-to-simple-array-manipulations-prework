@@ -23,7 +23,7 @@ def shift_with_args(array)
 end
 
 def using_concat(array1, array2)
-  array2.pop
+  array1.concat(array2)
 end
 
 
