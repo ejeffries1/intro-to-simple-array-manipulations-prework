@@ -23,10 +23,7 @@ def shift_with_args(array)
 end
 
 def using_concat(array1, array2)
-  array2.each do |n|
-    array1.concat(n)
-  end
-  array1
+  array2.pop
 end
 
 
